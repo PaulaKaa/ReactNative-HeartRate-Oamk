@@ -7,8 +7,8 @@ export default function App() {
   //check is it number
   const ageIsNumber: number = !isNaN(Number(age)) === true ? Number(age) : 0;
 
-  const lowHR: number = ageIsNumber ? (200 - ageIsNumber) * 0.65 : 0;
-  const highHR: number = ageIsNumber ? (200 - ageIsNumber) * 0.85 : 0;
+  const lowHR: number = ageIsNumber ? (220 - ageIsNumber) * 0.65 : 0;
+  const highHR: number = ageIsNumber ? (220 - ageIsNumber) * 0.85 : 0;
 
   return (
     <View style={styles.container}>
